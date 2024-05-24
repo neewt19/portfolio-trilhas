@@ -159,12 +159,15 @@ nav {
   }
   footer {
     display: flex;
-    gap: 2rem;
-    flex-direction: column;
+    gap: 0;
+    flex-direction: row;
     width: 100vw;
     span {
       font-size: 2rem;
     }
+  }
+  #alura {
+    width: 10rem;
   }
   #logo {
     width: 2rem;
@@ -217,6 +220,8 @@ a {
   margin-bottom: 3rem;
 }
 #circle {
+  position: relative;
+  z-index: 0;
   width: 44.4rem;
   height: 44.4rem;
   background-color: #ffff;
