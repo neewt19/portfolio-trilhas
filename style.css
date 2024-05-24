@@ -258,6 +258,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0 5rem;
+    margin-bottom: 0;
   }
   #about_me_text {
     font-size: 1.6rem;
@@ -319,7 +320,7 @@ a {
   #habilidade {
     width: 25rem;
     position: absolute;
-    margin-top: 35rem;
+    margin-top: 38rem;
   }
   .circle2 {
     position: absolute;
@@ -354,8 +355,8 @@ a {
 .card {
   display: flex;
   justify-content: center;
-  width: 350px;
-  height: 300px;
+  width: 43rem;
+  height: 38rem;
   position: relative;
   background-color: #f91212;
   border-radius: 20px;
@@ -448,8 +449,8 @@ a {
   .card {
     display: flex;
     justify-content: center;
-    width: 50;
-    height: 300px;
+    width: 35rem;
+    height: 30rem;
     position: relative;
     background-color: #f91212;
     border-radius: 20px;
@@ -462,14 +463,14 @@ a {
 
   .card .img-box {
     position: absolute;
-    width: 40rem;
+    width: 30rem;
     height: auto;
     top: 5rem;
     transition: 0.5s;
   }
 
   .card:hover .img-box {
-    top: -2rem;
+    top: -1rem;
     scale: 0.75;
   }
 
@@ -485,7 +486,7 @@ a {
     flex-direction: column;
     gap: 18px;
     position: absolute;
-    top: 230px;
+    top: 190px;
     width: 100%;
     padding: 0px 30px;
     text-align: center;
