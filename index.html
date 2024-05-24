@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <header id="headerSection">
+        <img src="./assets/logo.svg" alt="" id="logo" />
+        <nav>
+          <a href="#sobre" class="navItem">
+            <img src="./assets/star.svg" alt="" class="starIcon" />SOBRE MIM</a
+          >
+          <a href="#habilidade" class="navItem">
+            <img src="./assets/star.svg" alt="" class="starIcon" />PROJETOS</a
+          >
+          <a href="#projetos" class="navItem">
+            <img
+              src="./assets/star.svg"
+              alt=""
+              class="starIcon"
+            />HABILIDADES</a
+          >
+        </nav>
+      </header>
+      <section id="about_me_section">
+        <div>
+          <h1 id="titulo" data-aos="fade-up">Newthon Silveira</h1>
+          <p id="about_me_text" data-aos="fade-up">
+            Olá! Sou um desenvolvedor full stack apaixonado por transformar
+            ideias em realidade digital. Tenho experiência em criar experiências
+            web robustas e responsivas, tanto no front-end quanto no back-end.
+            Além disso, colaboro efetivamente com designers para transformar
+            conceitos em interfaces incríveis e funcionais.
+          </p>
+          <img src="../assets/seta.svg" alt="" id="seta" />
+          <div class="buttons_container">
+            <a href="https://www.linkedin.com/in/newthon-silveira-220738251/"
+              ><button class="buttons" data-aos="zoom-in">
+                <img src="../assets/mdi_linkedin.svg" alt="" />
+                <p class="responsive_text">LINKEDIN</p>
+              </button></a
+            >
+            <button class="buttons" data-aos="zoom-in">
+              <img src="../assets/mdi_github.svg" alt="" />
+              <p class="responsive_text">GITHUB</p>
+            </button>
+          </div>
+        </div>
+        <div id="circle" data-aos="fade-up-left"></div>
+        <img
+          src="../assets/circle.svg"
+          alt=""
+          class="circle"
+          data-aos="fade-left"
+        />
+      </section>
+      <section id="abitity_section">
+        <img
+          src="../assets/habilidades.svg"
+          alt=""
+          id="habilidade"
+          data-aos="zoom-out"
+        />
+        <div>
+          <h1 id="ability_title" data-aos="fade-up">MINHAS HABILIDADES</h1>
+          <p id="about_ability" data-aos="fade-up">
+            Tenho uma sólida base em TypeScript, JavaScript, HTML e CSS,
+            permitindo-me criar experiências web robustas e responsivas. Meu
+            conhecimento em React me permite desenvolver aplicações front-end
+            dinâmicas e escaláveis, enquanto minha experiência em Java me dá
+            habilidades para soluções back-end seguras. Além disso, sou
+            familiarizado com o Figma, colaborando efetivamente na criação de
+            interfaces incríveis e funcionais.
+          </p>
+        </div>
+        <img
+          src="../assets/circle2.svg"
+          class="circle2"
+          data-aos="fade-right"
+        />
+      </section>
+      <img src="./assets/Vector 23.svg" alt="" id="fundo" />
+      <section id="project_section">
+        <div>
+          <h1 id="project_title" data-aos="fade-up">MEUS PROJETOS</h1>
+          <p id="about_project" data-aos="fade-up">
+            Durante meus anos de aprendizado, desenvolvi diversos projetos em
+            Html, css, JavaScript, TypeScript, React e Java <br />explorando as
+            capacidades da linguagem e aprimorando minhas habilidades.
+          </p>
+        </div>
+        <div id="project_container">
+          <div class="card" data-aos="zoom-out">
+            <div class="img-box">
+                <img src="./assets/image 107.svg">
+            </div>
+            <div class="content">
+                <h2>DT-Money</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Temporibus molestias minus porro. Deserunt dolore eligendi sapiente hic totam.
+                </p>
+            </div>
+        </div>
+        <div class="card" data-aos="zoom-out">
+          <div class="img-box">
+              <img src="./assets/image 108.svg">
+          </div>
+          <div class="content">
+              <h2>to-do list</h2>
+              <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus molestias minus porro. Deserunt dolore eligendi sapiente hic totam.
+              </p>
+          </div>
+      </div>
+      <div class="card" data-aos="zoom-out">
+        <div class="img-box">
+            <img src="./assets/image 109.svg">
+        </div>
+        <div class="content">
+            <h2>Coffee Delivery</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus molestias minus porro. Deserunt dolore eligendi sapiente hic totam.
+            </p>
+        </div>
+    </div>
+      </section>
+      <footer>
+        <img src="./assets/a-2.svg" id="alura" alt="" />
+        <span>Desenvolvido po Newthon</span>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
