@@ -117,7 +117,8 @@ nav {
   }
 }
 #alura {
-  width: 130px;
+  width: 30rem;
+  height: max-content;
 }
 #logo {
   animation: voltarLogo 0.3s ease-in forwards;
