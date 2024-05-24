@@ -148,7 +148,6 @@ nav {
   #headerSection {
     display: flex;
     padding: 0 5rem;
-    gap: 10rem;
     position: fixed;
     nav {
       display: flex;
@@ -175,7 +174,7 @@ nav {
     height: 1rem;
   }
   .navItem {
-    font-size: 1rem;
+    font-size: 1.6rem;
     width: max-content;
   }
   .navItem::after {
