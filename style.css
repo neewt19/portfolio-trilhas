@@ -11,7 +11,11 @@
 body {
   background-color: #f91212;
 }
+html {
+  scroll-behavior: smooth;
+}
 footer {
+  width: 100vw;
   height: 16.8rem;
   border-top: 1px solid #ffe6c9;
   display: flex;
@@ -38,6 +42,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 nav {
@@ -166,6 +171,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 12rem;
+  margin-bottom: 10rem;
 }
 a {
   text-decoration: none;
@@ -262,7 +268,7 @@ a {
   }
   .circle {
     position: absolute;
-    margin-left: 20rem;
+    margin-left: 10rem;
     width: 30rem;
     height: 15rem;
   }
@@ -273,17 +279,14 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 12rem;
-  margin: 20rem 0 8rem 0;
+  padding: 0 12rem 10rem 12rem;
 }
 
 #ability_title {
   font-size: 7rem;
   margin-bottom: 3rem;
 }
-#fundo {
-  margin-bottom: -4px;
-}
+
 #about_ability {
   font-size: 2rem;
   width: 84rem;
@@ -293,7 +296,7 @@ a {
   width: 59.4rem;
   height: 42.7rem;
   margin-left: -15rem;
-  margin-top: 20rem;
+  margin-top: 27rem;
 }
 #habilidade {
   width: 48.961rem;
@@ -303,14 +306,11 @@ a {
     margin-top: 0;
     justify-content: center;
     padding: 5rem 5rem;
-    margin-bottom: 13rem;
+    margin-bottom: 16rem;
     align-items: start;
     div {
       margin-top: 10rem;
     }
-  }
-  #fundo {
-    width: 100vw;
   }
   #ability_title {
     font-size: 3rem;
@@ -428,6 +428,12 @@ a {
     background-color: #fff;
     font-size: 6rem;
     padding: 10rem 5rem;
+  }
+  #about_project {
+    font-size: 2rem;
+    width: 100%;
+    margin-bottom: 5rem;
+    color: #f91212;
   }
   #project_title {
     font-size: 3rem;
